@@ -9,7 +9,7 @@ This project demonstrates practical modular arithmetic design and testbench deve
 
 # Incrementer / Decrementer / Buffer Circuit (Verilog)
 
-## 🧩 Overview
+##  Overview
 This project implements a **parameterized combinational arithmetic circuit** in **Verilog HDL** that performs **increment, decrement, or buffer** operations based on three control signals.
 
 The circuit can modify an input count by **±1 or ±2**, or simply **hold (buffer)** the same value when disabled.  
@@ -22,7 +22,7 @@ The accompanying testbench (`ic_tb.v`) validates all operation modes with random
 
 ---
 
-## ⚙️ Features
+##  Features
 - Supports **Increment / Decrement** by **1 or 2**.  
 - Acts as a **Buffer** when disabled (`enable = 0`).  
 - Fully **parameterized width** (`N+1` bits, default: 8-bit).  
@@ -31,7 +31,7 @@ The accompanying testbench (`ic_tb.v`) validates all operation modes with random
 
 ---
 
-## 🧠 Operation Theory
+##  Operation Theory
 
 ### 1️⃣ Control Signal Definitions
 | Signal | Width | Description |
@@ -81,9 +81,9 @@ ic (Top-Level)
 
 ---
 
-## 🧪 Testbench (`ic_tb.v`)
+##  Testbench (`ic_tb.v`)
 
-### 🧰 Purpose
+###  Purpose
 The testbench applies random values of `count` and systematically iterates through all 8 possible control signal combinations `{enable, decInc, oneOrTwo}` to verify every mode:
 - Increment by 1
 - Increment by 2
@@ -91,7 +91,7 @@ The testbench applies random values of `count` and systematically iterates throu
 - Decrement by 2
 - Buffer (no change)
 
-### 📊 Example Simulation Output
+###  Example Simulation Output
 
 Time=0 | ENA=0 | DEC/INC=0 | 1/2=0 | COUNT=  8 | NEXT_COUNT=  8
 Time=10 | ENA=0 | DEC/INC=0 | 1/2=1 | COUNT= 12 | NEXT_COUNT= 12
@@ -104,7 +104,7 @@ Time=70 | ENA=1 | DEC/INC=1 | 1/2=1 | COUNT=  7 | NEXT_COUNT=  5
 
 ---
 
-## 🖥️ Simulation Instructions
+##  Simulation Instructions
 
 ### 🔧 Using Icarus Verilog (Linux/Windows)
 ```bash
