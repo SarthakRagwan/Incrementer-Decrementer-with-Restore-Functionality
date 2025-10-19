@@ -109,7 +109,7 @@ Time=60 | ENA=1 | DEC/INC=1 | 1/2=0 | COUNT=  5 | NEXT_COUNT=  4
 
 Time=70 | ENA=1 | DEC/INC=1 | 1/2=1 | COUNT=  7 | NEXT_COUNT=  5
 
-<img width="1562" height="249" alt="controller" src="https://github.com/user-attachments/assets/ad990037-d886-460f-a51e-7ba9cd0346c8" />
+<img width="1546" height="192" alt="Controller" src="https://github.com/user-attachments/assets/2a3d1e2a-10e8-4bca-9703-0eff29be4d68" />
 
 ---
 
