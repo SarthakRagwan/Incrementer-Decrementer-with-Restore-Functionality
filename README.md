@@ -91,7 +91,7 @@ The testbench applies random values of `count` and systematically iterates throu
 - Decrement by 2
 - Buffer (no change)
 
-###  Example Simulation Output
+###  Example Simulation Output and waveform
 
 Time=0 | ENA=0 | DEC/INC=0 | 1/2=0 | COUNT=  8 | NEXT_COUNT=  8
 
@@ -108,6 +108,8 @@ Time=50 | ENA=1 | DEC/INC=0 | 1/2=1 | COUNT=  2 | NEXT_COUNT=  4
 Time=60 | ENA=1 | DEC/INC=1 | 1/2=0 | COUNT=  5 | NEXT_COUNT=  4
 
 Time=70 | ENA=1 | DEC/INC=1 | 1/2=1 | COUNT=  7 | NEXT_COUNT=  5
+
+<img width="1562" height="249" alt="controller" src="https://github.com/user-attachments/assets/ad990037-d886-460f-a51e-7ba9cd0346c8" />
 
 ---
 
