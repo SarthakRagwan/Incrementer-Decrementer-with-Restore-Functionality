@@ -1,7 +1,7 @@
 //======================================================================
 // Project      : Configurable Increment/Decrement Unit (±1 / ±2)
 // File Name    : ic.v
-// Author       : [Your Name]
+// Author       : Sarthak Kumar
 // Description  : Parametric Verilog design that performs increment or
 //                decrement operations by 1 or 2, or acts as a buffer,
 //                based on three control signals.
@@ -159,5 +159,6 @@ module ic(
       );
     end
   endgenerate
+
 
 endmodule
