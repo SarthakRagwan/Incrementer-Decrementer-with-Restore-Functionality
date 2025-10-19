@@ -61,7 +61,9 @@ The circuit operation depends on the control signals as shown below:
 ### 3️⃣ Module Hierarchy
 
 ic (Top-Level)
+
 ├── initialModule → Handles LSB and enable/buffer logic
+
 └── processingUnit → Handles bit-wise computation and propagation
 
 #### 🔹 initialModule
