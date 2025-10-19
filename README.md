@@ -84,12 +84,15 @@ ic (Top-Level)
 Internal Circuitry
 
 Initial Module
+
 <img width="1827" height="492" alt="inital module" src="https://github.com/user-attachments/assets/b62f9ca9-c584-44fc-8de5-e33845b58098" />
 
 Processing Unit
-<img width="1896" height="561" alt="processing unit" src="https://github.com/user-attachments/assets/cbac949c-93ac-4628-964e-d456c2e7321c" />
+
+<img width="1879" height="553" alt="processing unit" src="https://github.com/user-attachments/assets/fe386f19-9b71-4969-af23-c1a458bb1334" />
 
 Circuit Design
+
 <img width="724" height="920" alt="Circuit Design" src="https://github.com/user-attachments/assets/f38f8cfd-bf46-4a25-be41-e71b4230ace5" />
 
 
