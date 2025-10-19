@@ -94,12 +94,19 @@ The testbench applies random values of `count` and systematically iterates throu
 ###  Example Simulation Output
 
 Time=0 | ENA=0 | DEC/INC=0 | 1/2=0 | COUNT=  8 | NEXT_COUNT=  8
+
 Time=10 | ENA=0 | DEC/INC=0 | 1/2=1 | COUNT= 12 | NEXT_COUNT= 12
+
 Time=20 | ENA=0 | DEC/INC=1 | 1/2=0 | COUNT=  7 | NEXT_COUNT=  7
+
 Time=30 | ENA=0 | DEC/INC=1 | 1/2=1 | COUNT=  2 | NEXT_COUNT=  2
+
 Time=40 | ENA=1 | DEC/INC=0 | 1/2=0 | COUNT= 12 | NEXT_COUNT= 13
+
 Time=50 | ENA=1 | DEC/INC=0 | 1/2=1 | COUNT=  2 | NEXT_COUNT=  4
+
 Time=60 | ENA=1 | DEC/INC=1 | 1/2=0 | COUNT=  5 | NEXT_COUNT=  4
+
 Time=70 | ENA=1 | DEC/INC=1 | 1/2=1 | COUNT=  7 | NEXT_COUNT=  5
 
 ---
@@ -132,10 +139,7 @@ xorOutput = 1010 (10)
 Design Highlights
 
 Implements arithmetic logic without using '+' or '-' operators.
-
 Uses XOR-AND chain for carry and borrow propagation.
-
 Buffer mode allows data passthrough without modification.
-
 Can be extended to any bit width by changing the parameter N.
 
